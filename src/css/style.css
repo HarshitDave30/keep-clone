@@ -1,0 +1,66 @@
+.navigationbar {
+  background-color: #fbbc04;
+  padding: 15px 0px;
+}
+
+.navigationbar h4 {
+  color: #ffffff;
+}
+
+.navigationbar .fa {
+  cursor: pointer;
+}
+
+.active .navigationbar {
+  background-color: #202124;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.active {
+  background-color: #202124;
+  height: 100vh;
+  overflow: auto;
+}
+
+.avatar {
+  margin-left: 20px;
+}
+
+.avatar img {
+  max-width: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid #ffe59b;
+}
+
+.notes {
+  margin: 50px 0px;
+}
+
+.notes input {
+  height: 55px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.notes input:focus {
+  box-shadow: none;
+}
+
+.box {
+  border: 1px solid #ced4da;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.active .box p {
+  color: #ffffff;
+}
+
+.box .fa {
+  text-align: right;
+  display: block;
+  cursor: pointer;
+  color: #a6aeb6;
+}
